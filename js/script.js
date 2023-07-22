@@ -100,7 +100,7 @@ trs +=
 <td>${i+1}</td>
 <td>${websitesList[i].wName}</td>
 
-<td><button class="btn2 btn btn-warning onclick="visit(${i})" id"visitBtn"><a class="text-decoration-none text-white" href=""><i class="fa-solid fa-eye pe-2"></i><span>Visit</span></a></button></td>   
+<td><button class="btn2 btn btn-warning onclick="visit(${i})" id"visitBtn"><a class="text-decoration-none text-white" href="${websitesList[i].wUrl}"><i class="fa-solid fa-eye pe-2"></i><span>Visit</span></a></button></td>   
 
                                 
 <td><button class="btn3 btn btn-danger" onclick="delte(${i})"><i class="fa-solid fa-trash-can pe-2"></i><span>Delete</span></button></td>
