@@ -1,0 +1,149 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.item{
+    background-color: #F7ECDE;
+}
+
+.demo{
+    border:2px dotted black;
+    border-left: none;
+    border-right: none;
+    width: 90%;
+    margin: auto;
+}
+
+
+.btn1{
+    background-color: #D1512D;
+    border: none;
+    padding: 7px 50px;
+    border-radius: 6px;
+    text-align: center;
+    margin-top: 30px;
+    color: white;
+    transition: all 0.3s;
+    
+}
+
+
+
+.btn1:hover{
+    background-color: #a02909 ;
+   
+} 
+
+.tab{
+    width: 90%;
+    margin: auto;
+}
+
+
+.btn2{
+    background-color: #b1cc2e !important;
+    border: none !important;
+}
+
+
+.btn2:hover{
+    background-color: #8A9E23 !important;
+    border: none !important;
+}
+
+
+
+
+.item-heading{
+    z-index: 2;
+}
+
+
+
+
+.item-heading::after{
+   
+    content: '';
+    width:19%;
+    height:27%;
+    background-color: #FEC260;
+    position: absolute;
+    z-index:-1 ;
+   
+    left: 40.5%;
+    top:70%;
+   
+  
+    
+   
+
+}
+
+
+.item-heading::before{
+   
+    content: '';
+    width:19%;
+    height:27%;
+    background-color: #FEC260;
+    position: absolute;
+    z-index: -1;
+   
+    left: 40.5%;
+    top:70%;
+ transition: all 0.3s;
+   
+}
+
+
+.item-heading:hover.item-heading::before{
+   
+    top:43%;
+}
+
+
+i.icon1{
+    color: #3FA55B;
+}
+
+
+i.icon2{
+    color: #B4AC49;
+}
+
+
+
+
+.h2-firsthalf{
+    color: #3FA55B;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+.h2-secondhalf{
+    color: #B4AC49;
+    font-weight: 500;
+    font-size: 25px;
+
+}
+
+
+
+@font-face {
+    font-family:tarek;
+    src: url(../fonts/Pacifico/Pacifico-Regular.ttf);
+}
+
+
+
+h1{
+    
+    font-family:tarek;
+    font-weight: 500;
+    font-size: 50px;
+
+}
